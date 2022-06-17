@@ -1,0 +1,16 @@
+
+$primary: #6941C6;
+$black: #000;
+$white: #fff;
+$light-gray: #98A2B3;
+$dark-gray: #667085;
+
+$border-radius: 8px;
+
+@mixin font-text1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1.2rem;
+	line-height: 1.5;
+	color: $black;
+}

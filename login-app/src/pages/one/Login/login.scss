@@ -1,0 +1,34 @@
+@use "../../../styles/one/variables.scss" as v;
+@use "../../../styles/breakpoints.scss" as b;
+
+.form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  max-width: 440px;
+  margin: 0 auto;
+
+  &__divider {
+    width: 100%;
+    height: 1px;
+    background-color: v.$dark-gray;
+    color: v.$dark-gray;
+    border: none;
+    margin: 0;
+  }
+
+  &__forgot-password {
+    margin: 0;
+    color: v.$dark-gray;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

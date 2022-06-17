@@ -1,0 +1,27 @@
+@use "../../../styles/one/variables.scss" as v;
+
+.button {
+	border-radius: v.$border-radius;
+	font-size: 1rem;
+	font-weight: 700;
+	padding: 0.75rem;
+	width: 100%;
+	outline: none;
+
+	&.primary {
+		background-color: v.$primary;
+		color: v.$white;
+		border: none;
+	}
+
+	&.outline {
+		background-color: v.$white;
+		color: v.$primary;
+		border: 3px solid v.$primary;
+	}
+
+	&:hover {
+		cursor: pointer;
+
+	}
+}
